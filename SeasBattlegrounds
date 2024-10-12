@@ -1,0 +1,23 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/lime"))()
+
+local w = Library:Window("Sucks Hub | Seas B")
+
+w:Button("Get Ability Luffy", function()
+game.Players.LocalPlayer.Character:SetAttribute("Ability", "Luffy")
+end)
+
+w:Button("Get Ability Sanji", function()
+game.Players.LocalPlayer.Character:SetAttribute("Ability", "Sanji")
+end)
+
+w:Button("Get Ability Zoro", function()
+game.Players.LocalPlayer.Character:SetAttribute("Ability", "Zoro")
+end)
+
+w:Button("Get Ability Enel", function()
+game.Players.LocalPlayer.Character:SetAttribute("Ability", "Enel")
+end)
+
+w:Button("Get Ability Gojo", function()
+game.Players.LocalPlayer.Character:SetAttribute("Ability", "Gojo")
+end)
